@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color:#2C3E50 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vh;
+    color: white;
+    height: 50px;
+    padding-top:10px ;
+    position: fixed;
+    width: 100%;
+    
+}
+.header-left{
+    font-size: large;
+}
+
+.sign-up{
+    background-color:#e8e6e6 ;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    padding-top: 5vh;
+}
+.sign-up p{
+    color: grey;
+}
+input {
+    margin-top: 3vh;
+    padding: 7px 150px 8px 10px;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+button{
+   padding: 8px; 
+   background-origin: 3vh;
+   border-width: 1px;
+   border-radius: 3px;
+   background-color: #18BC9C;
+   color: white;
+}
+
+.Grasshopper{
+    background-color: #e8e6e6;
+    text-align: center;
+    height: 15vh;
+    color: gray;
+    padding-top: 20px;
+    font-size: x-large;
+    font-weight: 200;
+    
+}
+
+.hero-section{
+    background-color: #18BC9C;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 48px;
+    color: rgb(51, 51, 51);
+    gap: 4vh;
+}
+.card {
+    width: 238px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20x;
+    border-radius: 5px;
+    gap: 15px;
+    text-align: center;
+    padding-top: 4vh;
+    background-color: white;
+}
+.card img{
+    border-radius: 50%;
+}
+.card-title{
+    font-weight: bold;
+    font-size: larger;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    background-color: #e8e6e6;
+    flex-wrap: wrap;
+}
+
+.card:hover{
+    background-color: #18BC9C;
+}
+
+.Journeyman{
+    background-color: #e8e6e6;
+    text-align: center;
+    height: 15vh;
+    color: gray;
+    padding-top: 40px;
+    font-size: x-large;
+    font-weight: 200;
+}
+
+.space{
+    height: 20vh;
+    background-color: #e8e6e6 ;
+}
+
+footer{
+    color: white;
+    background-color: #2C3E50;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-info{
+    padding: 50px;
+}
+.footer-info p{
+    padding-top: 30px;
+    font-size: small;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.footer-info a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+/* 
+
+colors:-
+header background : #2C3E50
+hero background : #18BC9C
+main background color : #F7F7F7
+
+*/
